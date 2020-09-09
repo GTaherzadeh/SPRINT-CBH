@@ -3,3 +3,8 @@ Carbohydrate-binding proteins play significant roles in many diseases including 
 
 Cite: Taherzadeh, G., Zhou, Y., Liew, A. W. C., & Yang, Y. (2016). Sequence-based prediction of protein–carbohydrate binding sites using support vector machines. Journal of chemical information and modeling, 56(10), 2115-2122.
 
+Instruction:
+
+* Protein-peptide dataset are stored in Data directory. Dataset file contains protein sequences labeled as 1 and 0 for binding and non-binding residues, respectively. Train and test files contain actual binding residues used in this study.
+* Run ./SPRINT.py for feature extraction and peptide binding site prediction.
+* The pre-trained model and protein-peptide complexes in pdb format are store as LargeFiles in Release.
